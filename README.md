@@ -54,11 +54,12 @@ the file services you need to be connected to the MAASnet, i.e. either be
 physically present and connected to university Eduroam or to the VPN as described
 above.
 
-To get a list of network drives run:
+You may use `smbclient` to get a list of network drives:
 ```
 smbclient -L unimaas.nl -U <student id>
 ```
 
+You may use CIFS (e.g. install `cifs-utils` on Arch) to mount the drives directly.
 In order to mount your private drive directory in `/media/unimaas/userdata` run:
 ```
 # Create a mountpoint
