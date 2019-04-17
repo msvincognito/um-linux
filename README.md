@@ -50,8 +50,8 @@ described [here](https://linuxunimaas.blogspot.com/2013/11/reading-literature-fr
 ## File service
 The University file service is accessible with
 [Samba](https://wiki.archlinux.org/index.php/samba). Note that in order to connect to
-the file services you need to be connected to the UM network, i.e. either be
-physically present and connected to University Eduroam or to the VPN as described
+the file services you need to be connected to the MAASnet, i.e. either be
+physically present and connected to university Eduroam or to the VPN as described
 above.
 
 To get a list of network drives run:
@@ -72,6 +72,9 @@ More information may be found in the [ICTS Manual - UM drive
 
 # Useful resources
  - [Linux @ Maastricht University blog](https://linuxunimaas.blogspot.com/)
- - [ICTS Manual by
+ - [ICTS
+   Manual from within
+   MAASnet](https://kb.icts.maastrichtuniversity.nl/display/ISM/ICTS+Servicedesk+Manuals)
+   and [by
    proxy](https://kb-icts-maastrichtuniversity-nl.ezproxy.ub.unimaas.nl/display/ISM/ICTS+Servicedesk+Manuals)
 
