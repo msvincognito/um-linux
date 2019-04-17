@@ -1,4 +1,4 @@
-# Linux tricks for Maastricht University
+# GNU/Linux tricks for Maastricht University
 This repository contains commands and configs I found useful regarding the use of
 University services. Some of these may be distro-specific so your mileage may vary.
 
