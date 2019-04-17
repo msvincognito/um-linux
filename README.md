@@ -49,14 +49,13 @@ described [here](https://linuxunimaas.blogspot.com/2013/11/reading-literature-fr
 
 ## File service
 The University file service is accessible with
-[Samba](https://wiki.archlinux.org/index.php/samba). Note that in order to connect to
-the file services you need to be connected to the MAASnet, i.e. either be
-physically present and connected to university Eduroam or to the VPN as described
-above.
+[Samba](https://wiki.archlinux.org/index.php/samba). Note that it seems you need to
+be physically present and connected to the university Eduroam to make use of the file
+services.
 
 You may use `smbclient` to get a list of network drives:
 ```
-smbclient -L unimaas.nl -U <student id>
+smbclient -L mfs.maastrichtuniversity.nl -U <student id>
 ```
 
 You may use CIFS (e.g. install `cifs-utils` on Arch) to mount the drives directly.
