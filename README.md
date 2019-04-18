@@ -2,6 +2,9 @@
 This repository contains commands and configs I found useful regarding the use of
 University services. Some of these may be distro-specific so your mileage may vary.
 
+Mentions of `<student id>` refer to the UM username, e.g. `i6123456` including the
+`i`.
+
 ## Eduroam
 Below is a config for `netctl` that works with Eduroam.
 
