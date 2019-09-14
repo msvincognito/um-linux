@@ -6,6 +6,7 @@ Mentions of `<student id>` refer to the UM username, e.g. `i6123456` including t
 `i`.
 
 ## Eduroam
+### Netctl
 Below is a config for `netctl` that works with Eduroam.
 
 `/etc/netctl/wlp3s0-eduroam`
@@ -29,8 +30,9 @@ WPAConfigSection=(
 ```
 
 ## VPN
-[OpenConnect](https://wiki.archlinux.org/index.php/OpenConnect) may be used to
-connect to the University VPN, for instance to gain access to journals. 
+### OpenConnect
+[OpenConnect](https://wiki.archlinux.org/index.php/OpenConnect) can be used to
+connect to the University VPN, for instance to gain access to journals.
 
 Installation on Arch:
 ```
@@ -45,10 +47,12 @@ Having installed it simply run:
 ```
 sudo openconnect vpn.maastrichtuniversity.nl -u <student id>
 ```
-And you're in!
+Type in your password, and you're in!
 
-Alternatively, you may use [EZproxy](https://www.oclc.org/nl/ezproxy.html) as
-described [here](https://linuxunimaas.blogspot.com/2013/11/reading-literature-from-home-with-your.html).
+### EZproxy
+Alternatively, you may use [EZproxy](https://www.oclc.org/nl/ezproxy.html) from
+within your browser for access to literature as described
+[here](https://linuxunimaas.blogspot.com/2013/11/reading-literature-from-home-with-your.html).
 
 ## File service
 The University file service is accessible with
@@ -56,7 +60,7 @@ The University file service is accessible with
 be physically present and connected to the university Eduroam to make use of the file
 services.
 
-You may use `smbclient` to get a list of network drives:
+You can use `smbclient` to get a list of network drives:
 ```
 smbclient -L mfs.maastrichtuniversity.nl -U <student id>
 ```
