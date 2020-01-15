@@ -54,6 +54,9 @@ Alternatively, you may use [EZproxy](https://www.oclc.org/nl/ezproxy.html) from
 within your browser for access to literature as described
 [here](https://linuxunimaas.blogspot.com/2013/11/reading-literature-from-home-with-your.html).
 
+### Cisco Anyconnect
+You can also use [Cisco Anyconnect](https://www.cisco.com/c/en/us/support/security/anyconnect-secure-mobility-client/tsd-products-support-series-home.html) software to connect it via a graphical interface as explained in the [ICT manual](https://kb-icts-maastrichtuniversity-nl.ezproxy.ub.unimaas.nl/pages/viewpage.action?pageId=20513914)
+
 ## File service
 The University file service is accessible with
 [Samba](https://wiki.archlinux.org/index.php/samba). Note that it seems you need to
@@ -76,6 +79,9 @@ sudo mount -t cifs //mfs.maastrichtuniversity.nl/users/students/<student id>/dat
 
 More information may be found in the [ICTS Manual - UM drive
    mappings](https://kb-icts-maastrichtuniversity-nl.ezproxy.ub.unimaas.nl/display/ISM/Manual+File+Service+-+Mapping+UM+network+drives+in+Windows).
+
+### VMware Horizon
+Like any other platform, you can download the [Horizon Client](https://www.vmware.com/go/viewclients#linux64) and access to your Student Desktop Anywhere. Careful tho, it's Windows.
 
 # Useful resources
  - [Linux @ Maastricht University blog](https://linuxunimaas.blogspot.com/)
