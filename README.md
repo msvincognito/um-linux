@@ -80,6 +80,13 @@ sudo mount -t cifs //mfs.maastrichtuniversity.nl/users/students/<student id>/dat
 More information may be found in the [ICTS Manual - UM drive
    mappings](https://kb-icts-maastrichtuniversity-nl.ezproxy.ub.unimaas.nl/display/ISM/Manual+File+Service+-+Mapping+UM+network+drives+in+Windows).
 
+### SURFdrive & SURFfilesender
+Via your university account you can get access to [SURFdrive](https://www.surf.nl/en/surfdrive-store-and-share-your-files-securely-in-the-cloud) (dropbox alternative) and [SURFfilesender](https://www.surf.nl/en/surffilesender-send-large-files-securely-and-encrypted) (WeTransfer alternative) for sending big files securely.
+
+For SURFfilesender, you just access the [SURFfilesender portal](https://filesender.surf.nl) and log in.
+
+For SURFdrive, you first need to request access, all students can request access via the [Servicedesk Self Service form](https://servicedesk.icts.maastrichtuniversity.nl/tas/public/ssp/content/serviceflow?unid=f4261c04678340efa43cc3f08914b6ec)
+
 ### VMware Horizon
 Like any other platform, you can download the [Horizon Client](https://www.vmware.com/go/viewclients#linux64) and access to your Student Desktop Anywhere. Careful tho, it's Windows.
 
