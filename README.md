@@ -49,6 +49,8 @@ sudo openconnect vpn.maastrichtuniversity.nl -u <student id>
 ```
 Type in your password, and you're in!
 
+Since December 2023 and until Openconnect [merges these changes](https://gitlab.com/openconnect/openconnect/-/merge_requests/497) you'll need to add `--useragent=AnyConnect`. Without it, you cannot submit your 2FA code.
+
 ### EZproxy
 Alternatively, you may use [EZproxy](https://www.oclc.org/nl/ezproxy.html) from
 within your browser for access to literature as described
